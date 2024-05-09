@@ -1,0 +1,19 @@
+.divContent {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(248, 239, 239);
+    flex-wrap: wrap;
+    font-size: 21px;
+    padding: 10px;
+}
+
+
+.bi-trash3::before {
+    cursor: pointer;
+}
