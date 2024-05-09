@@ -1,12 +1,18 @@
 import React from 'react';
 import './Header.css';
 
-function Header() {
+function Header({ title }) {
     return (
         <div className='divHeader'>
-            <h3 style={{whiteSpace:'nowrap'}}>ToDo List App</h3>
+            <h3 style={{ whiteSpace: 'nowrap' }}>{title}</h3>
         </div>
     )
 }
 
-export default Header
+Header.defaultProps={
+    title:'Untitled'
+}
+
+
+export default Header;
+

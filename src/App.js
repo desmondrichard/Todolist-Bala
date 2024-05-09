@@ -8,8 +8,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className='divApp'>
-      <div style={{width:'75%',border:'1px dashed gray'}}>
-        <Header />
+      <div style={{ width: '75%', border: '1px dashed gray' }}>
+        <Header title="Todo List App" />
         <Search />
         <Content />
         <Footer />
@@ -18,5 +18,7 @@ function App() {
 
   );
 }
+
+
 
 export default App;
