@@ -3,17 +3,8 @@
     margin-left: 99999px;
 }
 
-
-@media screen and (min-width: 993px) {
-    .button {
-        margin-left: -50px;
-        width: 140px;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width:992px) {
-    .button {
-        width: 70px;
-        margin-left:-12px;
-    }
+.formAddItem {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
